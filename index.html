@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Train Details</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Indian Railways Details</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<h2>All Trains</h2>
+		<label class="search" for="search-input">Search by Name or Number:</label>
+		<input type="text" id="search-input" placeholder="Enter search term">
+		<button id="search-button">Search</button>
+		<table>
+			<thead>
+				<tr>
+					<th>Train Number</th>
+					<th>Train Name</th>
+                    <th>From</th>
+                    <th>To</th>
+				</tr>
+			</thead>
+			<tbody id="train-table">
+				<!-- Train details will be added here using JavaScript -->
+			</tbody>
+		</table>
+	</main>
+	<footer>
+		<p>&copy; 2023 Indian Train Details</p>
+		<p></p>
+	</footer>
+
+	<!-- Load JavaScript -->
+	<script src="script.js"></script>
+</body>
+</html>
+
